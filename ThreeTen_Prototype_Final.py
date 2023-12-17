@@ -13,8 +13,8 @@ import calendar
 
 
 # st.set_page_config(layout="wide")
-img = Image.open('D:/ThreeTen/threeten/logo.png')
-img_logo = Image.open('D:/ThreeTen/threeten/310_wo_white_bg_1.png')
+img = Image.open('logo.png')
+img_logo = Image.open('310_wo_white_bg_1.png')
 
 st.set_page_config(page_title='ThreeTen', page_icon = img, layout = 'wide', initial_sidebar_state = 'auto')
 
