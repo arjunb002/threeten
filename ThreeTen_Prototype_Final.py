@@ -40,10 +40,10 @@ st.sidebar.image(img_logo)
 # Title and image layout
 st.title("ThreeTen Prototype")
 
-with open("D:/ThreeTen/threeten/stock_list.py", "rb") as file:
+with open("stock_list.py", "rb") as file:
     stock_dict = pickle.load(file)
     
-with open("D:/ThreeTen/threeten/ques_dict.py", "rb") as file:
+with open("ques_dict.py", "rb") as file:
     ques_dict = pickle.load(file)
 
 question_1 = st.text_input("Enter your question:")
